@@ -1,0 +1,6 @@
+namespace Tools
+class chen
+Add(double a,double b)
+Sub(double a, double b)
+Mul(double a, double b)
+Div(double a, double b)
