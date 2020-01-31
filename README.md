@@ -1,6 +1,6 @@
 # <center>vscode</center>
 
-#个人网站：[http://www.hello-chen.cn/](http://www.hello-chen.cn/)
+# 个人网站：[http://www.hello-chen.cn/](http://www.hello-chen.cn/)
 
 ## 该项目主要记录，日常语言的一些学习笔记。
 
