@@ -16,3 +16,7 @@
 # Markdown
 
     记录Markdown语法
+
+# Mysql
+
+    记录Mysql语法
