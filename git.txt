@@ -1,0 +1,27 @@
+# 配置用户名
+git config --global user.name "HelloChen"    //（ "username"是自己的账户名，）
+# 配置邮箱
+git config --global user.email "2421985222@qq.com"     //("username@email.com"注册账号时用的邮箱)
+git config --global --list
+
+sudo -s   获取绝对用户权限
+cd xxx    进入xxx目录
+ls (-a/-A)   显示当前路径下所有文件(隐藏的)
+pwd       显示当前绝对路径
+mkdir  xxx   创建文件夹xxx
+man xxx     查看xxx命令手册
+
+然后介绍下Git基础命令的含义；
+clone   克隆远程仓库
+init       初始化仓库
+remote 连接远程仓库
+pull      从远程仓库下拉获取新数据
+push    将本地仓库新增或修改文件上传到远程仓库
+add     添加文件或者修改文件，commit以及push之前使用
+log      当前仓库提交过的日志信息
+status  当前仓库版本状态
+commit 提交到当前仓库中
+branch 分支命令，相关增删查操作
+checkout 使用远程仓库最后一个版本完全覆盖当前仓库内容／选择分支branch
+diff      对比版本内容
+merge   合并版本内容
