@@ -6,7 +6,7 @@
         {
             "type": "shell",
             "label": "g++.exe build active file",
-            "command": "D:\\Program Files\\mingw64\\bin\\g++.exe",
+            "command": "D:\\D_Software\\IDE_Code\\vscode\\mingw64\\bin\\g++.exe",
             "args": [
                 "-g",
                 "${file}",
@@ -14,7 +14,7 @@
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "D:\\Program Files\\mingw64\\bin"
+                "cwd": "D:\\D_Software\\IDE_Code\\vscode\\mingw64\\bin"
             },
             "problemMatcher": [
                 "$gcc"

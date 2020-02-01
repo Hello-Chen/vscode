@@ -1,6 +1,7 @@
 # <center>vscode</center>
 
 # 个人网站：[www.hello-chen.cn](http://www.hello-chen.cn/)
+![wlop](https://graph.baidu.com/resource/121ebf0507cded1be88ac01580566358.jpg)
 
 ## 该项目主要记录，日常语言的一些学习笔记。
 
@@ -22,3 +23,5 @@
 # Mysql
 
     记录Mysql语法
+------
+![123](https://graph.baidu.com/resource/121d60c5aff191abdc90801580566258.jpg)
