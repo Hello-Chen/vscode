@@ -9,14 +9,9 @@
 ## 2.设置代码块
 
     代码块设置可分为：用户代码块片段和全局代码块片段，作用的工作区域不同，用户可自行选着。
-![设置代码块-2020-2-2-15-53-23.png](https://hello-chen-1300561671.cos.ap-chengdu.myqcloud.com/github_vscode/设置代码块-2020-2-2-15-53-23.png)
-
-![设置代码块2-2020-2-2-15-53-23.png](https://hello-chen-1300561671.cos.ap-chengdu.myqcloud.com/github_vscode/设置代码块2-2020-2-2-15-53-23.png)
-
-<div align="center">    
-<img src="https://hello-chen-1300561671.cos.ap-chengdu.myqcloud.com/github_vscode/代码块说明-2020-2-2-15-53-23.png" />
-</div>
-
+![设置代码块-2020-2-2-18-12-49.png](https://hello-chen-1300561671.cos.ap-chengdu.myqcloud.com/github_vscode/设置代码块-2020-2-2-18-12-49.png)
+![设置代码块2-2020-2-2-18-12-49.png](https://hello-chen-1300561671.cos.ap-chengdu.myqcloud.com/github_vscode/设置代码块2-2020-2-2-18-12-49.png)
+![代码块说明-2020-2-2-18-12-56.png](https://hello-chen-1300561671.cos.ap-chengdu.myqcloud.com/github_vscode/代码块说明-2020-2-2-18-12-56.png)
 ## 自用代码块
 
 ```c
