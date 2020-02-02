@@ -1,5 +1,6 @@
 https://marketplace.visualstudio.com/items?itemName=Spades.vs-picgo
 # vscode 配置
+
     "workbench.iconTheme": "vscode-icons",
     "sync.autoDownload": true,
     "sync.autoUpload": true,
