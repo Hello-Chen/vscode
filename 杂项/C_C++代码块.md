@@ -19,11 +19,11 @@
 {
     "Print to Scanf": {
         "scope": "c,cpp",        //定义语言范围,可多选，如"c,cpp,javascript,typescript"
-        "prefix": "sca",//触发条件，输入"sca"触发代码块
+        "prefix": "sca",         //触发条件，输入"sca"触发代码块
         "body": [                //需要填充的代码内容
-            "scanf(\"%$0\")"
+            "scanf(\"%$0\")"     //光标返回位置 $1,${1:defaulttext}
         ],
-        "description": "Scanf" //代码块名称
+        "description": "Scanf"   //代码块名称
     },
 
     "Print to For": {
@@ -32,7 +32,7 @@
         "body": [
             "for(int ${2:i} = 0; ${2:i} < ${1:n}; ${2:i}++)",
             "{",
-            "    ",
+            "    $3",
             "}"
         ],
         "description": "For循环"
@@ -51,11 +51,11 @@
     "scope": "c,cpp",
     "prefix": "std",
     "body": [
-            "#include <stdio.h>",
+			"#include <stdio.h>\n",
             "int main(void)",
             "{",
-            "    printf(\"Hello Chen$0\");",
-            "getchar();",
+            "    ${0:printf(\"Hello Chen\");}",
+            "    getchar();",
             "}",
     ],
     "description": "stdio.h"
@@ -65,11 +65,11 @@
         "scope": "c,cpp",
         "prefix": "ios",
         "body": [
-        "#include <iostream>",
+		"#include <iostream>\n",
         "using namespace std;",
         "int main(void)",
         "{",
-        "    cout << \"Hello Chen\" << endl;",
+        "    ${0:cout << \"Hello Chen\" << endl;}",
         "    system(\"pause\");",
         "}",
         ],
