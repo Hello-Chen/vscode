@@ -51,7 +51,7 @@
     "scope": "c,cpp",
     "prefix": "std",
     "body": [
-			"#include <stdio.h>\n",
+            "#include <stdio.h>\n",
             "int main(void)",
             "{",
             "    ${0:printf(\"Hello Chen\");}",
@@ -65,7 +65,7 @@
         "scope": "c,cpp",
         "prefix": "ios",
         "body": [
-		"#include <iostream>\n",
+        "#include <iostream>\n",
         "using namespace std;",
         "int main(void)",
         "{",
