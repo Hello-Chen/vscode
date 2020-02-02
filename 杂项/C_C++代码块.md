@@ -4,7 +4,6 @@
 
     代码块可以让代码实现自动填充
 
-
 ![代码块演示-2020-2-2-15-53-23.png](https://hello-chen-1300561671.cos.ap-chengdu.myqcloud.com/github_vscode/代码块演示-2020-2-2-15-53-23.png)
 
 ## 2.设置代码块

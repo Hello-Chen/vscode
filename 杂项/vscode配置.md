@@ -6,7 +6,7 @@ https://marketplace.visualstudio.com/items?itemName=Spades.vs-picgo
 
 ## 代码块
 
-```c
+```C
 {
 	"Print to Scanf": {
 		"scope": "c,cpp",	//定义语言范围,可多选，如"c,cpp,javascript,typescript"
