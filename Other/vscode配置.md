@@ -2,7 +2,7 @@
 
 ## 插件
 
-https://marketplace.visualstudio.com/items?itemName=Spades.vs-picgo
+[](https://marketplace.visualstudio.com/items?itemName=Spades.vs-picgo)
 
 ## 代码块
 

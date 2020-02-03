@@ -9,6 +9,7 @@
 ## 2.设置代码块
 
     代码块设置可分为：用户代码块片段和全局代码块片段，作用的工作区域不同，用户可自行选着。
+
 ![设置代码块-2020-2-2-18-12-49.png](https://hello-chen-1300561671.cos.ap-chengdu.myqcloud.com/github_vscode/设置代码块-2020-2-2-18-12-49.png)
 ![设置代码块2-2020-2-2-18-12-49.png](https://hello-chen-1300561671.cos.ap-chengdu.myqcloud.com/github_vscode/设置代码块2-2020-2-2-18-12-49.png)
 ![代码块说明-2020-2-2-18-12-56.png](https://hello-chen-1300561671.cos.ap-chengdu.myqcloud.com/github_vscode/代码块说明-2020-2-2-18-12-56.png)
@@ -33,7 +34,7 @@
             "for(int ${2:i} = 0; ${2:i} < ${1:n}; ${2:i}++)",
             "{",
             "    $3",
-            "}"
+            "}",
         ],
         "description": "For循环"
     },
@@ -67,7 +68,7 @@
         "body": [
         "#include <iostream>\n",
         "using namespace std;",
-        "int main(void)",
+         "int main(void)",
         "{",
         "    ${0:cout << \"Hello Chen\" << endl;}",
         "    system(\"pause\");",
