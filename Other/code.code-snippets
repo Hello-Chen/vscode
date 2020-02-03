@@ -47,14 +47,49 @@
         "scope": "c,cpp",
         "prefix": "ios",
         "body": [
-		"#include <iostream>\n",
-        "using namespace std;",
-        "int main(void)",
-        "{",
-        "    ${0:cout << \"Hello Chen\" << endl;}",
-        "    system(\"pause\");",
-        "}",
+			"#include <iostream>\n",
+			"using namespace std;",
+			"int main(void)",
+			"{",
+			"    ${0:cout << \"Hello Chen\" << endl;}",
+			"    system(\"pause\");",
+			"}",
         ],
         "description": "iostream"
-    }
+    },
+
+	"Print to C#":{
+		"scope": "csharp",
+		"prefix": "using",
+		"body":[
+			"using System;\n",
+            "namespace ${2:ConsoleApp1}",
+            "{",
+            "    class ${3:Program}",
+            "    {",
+			"       static void Main(string[] args)",
+			"       {",
+			"           $1",
+			"       }",
+			"    }",
+			"}",
+		],
+		"description": "C#"
+    },
+    "Print to SELECT": {
+		"scope": "sql",
+		"prefix": "sel",
+		"body": [
+		"SELECT",
+		"${5:*}",
+		"FROM",
+		"${1:TableName}",
+		"WHERE",
+		"${2:Condition}",
+		"ORDER BY",
+		"${3:Condition} ASC",
+		"LIMIT ${4:0,1000}",
+		],
+		"description": "SELECT"
+	}
 }
