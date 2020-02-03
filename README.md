@@ -25,4 +25,4 @@
     记录Mysql语法
 ----
 ![123](https://graph.baidu.com/resource/121d60c5aff191abdc90801580566258.jpg)
-[C# 帮助文档](C%20Sharp/C#帮助文档.pdf)
+[Top](#%e4%b8%aa%e4%ba%ba%e7%bd%91%e7%ab%99wwwhello-chencnhttpwwwhello-chencn)
