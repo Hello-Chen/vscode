@@ -10,14 +10,19 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/bin/Debug/netcoreapp3.1/myceshi001.dll",
+            "program": "${workspaceFolder}/C Sharp/test_proj1/bin/Debug/netcoreapp3.1/test_proj1.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
         },
-      
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
+        },
         {
             "name": "g++.exe build and debug active file",
             "type": "cppdbg",

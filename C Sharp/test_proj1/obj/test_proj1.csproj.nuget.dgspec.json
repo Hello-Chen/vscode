@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ZM\\c#\\test_proj1\\test_proj1.csproj": {}
+    "E:\\ZM\\vscode\\C Sharp\\test_proj1\\test_proj1.csproj": {}
   },
   "projects": {
-    "E:\\ZM\\c#\\test_proj1\\test_proj1.csproj": {
+    "E:\\ZM\\vscode\\C Sharp\\test_proj1\\test_proj1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ZM\\c#\\test_proj1\\test_proj1.csproj",
+        "projectUniqueName": "E:\\ZM\\vscode\\C Sharp\\test_proj1\\test_proj1.csproj",
         "projectName": "test_proj1",
-        "projectPath": "E:\\ZM\\c#\\test_proj1\\test_proj1.csproj",
-        "packagesPath": "C:\\Users\\24219\\.nuget\\packages\\",
-        "outputPath": "E:\\ZM\\c#\\test_proj1\\obj\\",
+        "projectPath": "E:\\ZM\\vscode\\C Sharp\\test_proj1\\test_proj1.csproj",
+        "packagesPath": "C:\\Users\\HelloChen\\.nuget\\packages\\",
+        "outputPath": "E:\\ZM\\vscode\\C Sharp\\test_proj1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\24219\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HelloChen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

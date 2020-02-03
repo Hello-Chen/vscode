@@ -1,0 +1,11 @@
+e:\ZM\vscode\C Sharp\test_proj1\bin\Debug\netcoreapp3.1\test_proj1.exe
+E:\ZM\vscode\C Sharp\test_proj1\bin\Debug\netcoreapp3.1\test_proj1.deps.json
+E:\ZM\vscode\C Sharp\test_proj1\bin\Debug\netcoreapp3.1\test_proj1.runtimeconfig.json
+E:\ZM\vscode\C Sharp\test_proj1\bin\Debug\netcoreapp3.1\test_proj1.runtimeconfig.dev.json
+e:\ZM\vscode\C Sharp\test_proj1\bin\Debug\netcoreapp3.1\test_proj1.dll
+e:\ZM\vscode\C Sharp\test_proj1\bin\Debug\netcoreapp3.1\test_proj1.pdb
+e:\ZM\vscode\C Sharp\test_proj1\obj\Debug\netcoreapp3.1\test_proj1.csprojAssemblyReference.cache
+e:\ZM\vscode\C Sharp\test_proj1\obj\Debug\netcoreapp3.1\test_proj1.AssemblyInfoInputs.cache
+e:\ZM\vscode\C Sharp\test_proj1\obj\Debug\netcoreapp3.1\test_proj1.AssemblyInfo.cs
+e:\ZM\vscode\C Sharp\test_proj1\obj\Debug\netcoreapp3.1\test_proj1.dll
+e:\ZM\vscode\C Sharp\test_proj1\obj\Debug\netcoreapp3.1\test_proj1.pdb
