@@ -24,5 +24,6 @@
 
     记录Mysql语法
 ----
+
 ![123](https://graph.baidu.com/resource/121d60c5aff191abdc90801580566258.jpg)
 [Top](#%e4%b8%aa%e4%ba%ba%e7%bd%91%e7%ab%99wwwhello-chencnhttpwwwhello-chencn)
