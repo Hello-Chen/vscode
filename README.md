@@ -1,7 +1,7 @@
 # <center>vscode</center>
 
 # 个人网站：[www.hello-chen.cn](http://www.hello-chen.cn/)
-![wlop](https://graph.baidu.com/resource/121ebf0507cded1be88ac01580566358.jpg)
+![wlop](https://gitee.com/Hello-Chen/Hello-Chen_Pictures/raw/master/res/001.jpg)
 
 ## 该项目主要记录，日常语言的一些学习笔记
 
@@ -25,5 +25,6 @@
     记录Mysql语法
 ----
 
-![123](https://graph.baidu.com/resource/121d60c5aff191abdc90801580566258.jpg)
+![123](https://gitee.com/Hello-Chen/Hello-Chen_Pictures/raw/master/Hello-Chen_Pictures/res/1797274705_preview_miles-morales-spiderman-into-the-spider-verse-s7933.jpg
+)
 [Top](#%e4%b8%aa%e4%ba%ba%e7%bd%91%e7%ab%99wwwhello-chencnhttpwwwhello-chencn)
