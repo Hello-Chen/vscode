@@ -1,7 +1,7 @@
 # <center>vscode</center>
 
 # 个人网站：[www.hello-chen.cn](http://www.hello-chen.cn/)
-![wlop](https://gitee.com/Hello-Chen/Hello-Chen_Pictures/raw/master/res/001.jpg)
+![wlop](https://gitee.com/Hello-Chen/Hello-Chen_Pictures/raw/master/res/11.jpg)
 
 ## 该项目主要记录，日常语言的一些学习笔记
 
@@ -25,6 +25,5 @@
     记录Mysql语法
 ----
 
-![123](https://gitee.com/Hello-Chen/Hello-Chen_Pictures/raw/master/Hello-Chen_Pictures/res/1797274705_preview_miles-morales-spiderman-into-the-spider-verse-s7933.jpg
-)
+![123](https://gitee.com/Hello-Chen/Hello-Chen_Pictures/raw/master/res/47.jfif)
 [Top](#%e4%b8%aa%e4%ba%ba%e7%bd%91%e7%ab%99wwwhello-chencnhttpwwwhello-chencn)
