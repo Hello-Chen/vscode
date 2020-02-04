@@ -1,3 +1,4 @@
+//官方snippets文档 https://code.visualstudio.com/docs/editor/userdefinedsnippets#_snippet-scope
 {
     "Print to Scanf": {
         "scope": "c,cpp",        //定义语言范围,可多选，如"c,cpp,javascript,typescript"
@@ -30,30 +31,30 @@
     },
 
     "Print to #include <stdio.h>":{
-    "scope": "c,cpp",
-    "prefix": "std",
-    "body": [
-			"#include <stdio.h>\n",
-            "int main(void)",
-            "{",
-            "    ${0:printf(\"Hello Chen\");}",
-            "    getchar();",
-            "}",
-    ],
-    "description": "stdio.h"
-    },
+		"scope": "c,cpp",
+		"prefix": "std",
+		"body": [
+		"#include <stdio.h>\n",
+		"int main(void)",
+		"{",
+		"    ${1:printf(\"${2:Hello Chen}\");}",
+		"    ${3:getchar();}",
+		"}",
+		],
+		"description": "stdio.h"
+	},
 
     "Print to #include <iostream>":{
         "scope": "c,cpp",
         "prefix": "ios",
         "body": [
-			"#include <iostream>\n",
-			"using namespace std;",
-			"int main(void)",
-			"{",
-			"    ${0:cout << \"Hello Chen\" << endl;}",
-			"    system(\"pause\");",
-			"}",
+        "#include <iostream>\n",
+        "using namespace std;",
+        "int main(void)",
+        "{",
+        "    ${0:cout << \"Hello Chen\" << endl;}",
+        "    system(\"pause\");",
+        "}",
         ],
         "description": "iostream"
     },
