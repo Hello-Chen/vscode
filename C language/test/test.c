@@ -2,6 +2,7 @@
 
 int main(void)
 {
-    printf("Hello Chen\n");
+    char a = 'c';
+    printf("Hello Chen\n%d",a);
     getchar();
 }
