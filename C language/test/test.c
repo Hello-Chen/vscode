@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    char a = 'c';
-    printf("Hello Chen\n%d",a);
+    char a = 'C';
+    printf("%d", a);
     getchar();
 }
