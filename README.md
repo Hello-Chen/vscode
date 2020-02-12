@@ -32,3 +32,6 @@
 ## <center>![s](http://n.sinaimg.cn/sinacn/w444h250/20180305/9bf7-fxipenn1263440.gif)</center>
 
 ## <center>[![Fork me on Gitee](https://gitee.com/Hello-Chen/GIt_test/widgets/widget_6.svg)](https://gitee.com/Hello-Chen/GIt_test)</center>
+
+[![Hello-Chen/vscode](https://gitee.com/Hello-Chen/vscode/widgets/widget_card.svg?colors=393222,ebdfc1,fffae5,d8ca9f,393222,a28b40)](https://gitee.com/Hello-Chen/vscode)
+
