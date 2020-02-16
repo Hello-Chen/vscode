@@ -1,4 +1,4 @@
-# <center> C language Value range of data type </center>
+# <center> 1.Basic data type </center>
 
 ### 1.进制转换 1Byte == 8 bit
 
