@@ -3,6 +3,7 @@
 ### 函数：strlen()
 
 strlen()函数给出字符串中的字符长度。
+string.h提供strlen函数原型
 
 ### 关键字：const
 
@@ -38,3 +39,13 @@ char (name) [字符长度，不填默认/0结束] = {可赋值 "String"'String'}
 ![Printf转换](https://hello-chen-1300561671.cos.ap-chengdu.myqcloud.com/github_vscode/20200217143030-2020-2-17-14-30-30.png)
 
 ![Printf转换修饰符](https://hello-chen-1300561671.cos.ap-chengdu.myqcloud.com/github_vscode/20200217143633-2020-2-17-14-36-33.png)
+
+###　Scanf
+
+![Scanf转换](https://hello-chen-1300561671.cos.ap-chengdu.myqcloud.com/github_vscode/20200217150159-2020-2-17-15-2-0.png)
+
+![Scanf转换修饰符](https://hello-chen-1300561671.cos.ap-chengdu.myqcloud.com/github_vscode/20200217150814-2020-2-17-15-8-14.png)
+
+### *转换修饰符
+
+==skiptwo.c==

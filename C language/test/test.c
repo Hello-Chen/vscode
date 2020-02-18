@@ -4,8 +4,7 @@
 
 int main(void)
 {
-    char a = '$';
-    printf("%c", a);
-
+    float Mb=18.12,MB=2.20;
+    printf("Hello Chen %.2f %.2f %.2f\n",MB,Mb,(MB*8)/Mb);
     system("pause");
 }

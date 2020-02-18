@@ -1,5 +1,10 @@
 # <center> 1.Basic data type </center>
 
+- [1.进制转换 1Byte == 8 bit](#1-进制转换-1byte--8-bit)
+- [2. 打印显示进制和进制前缀](#2-打印显示进制和进制前缀)
+- [3. 数据类型](#3-数据类型)
+- [4. 在当前系统下查看](#4-在当前系统下查看)
+
 ### 1.进制转换 1Byte == 8 bit
 
 ![进制转换](https://gitee.com/Hello-Chen/Hello-Chen_Pictures/raw/master/res/20200212140102.png)
