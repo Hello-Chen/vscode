@@ -154,6 +154,7 @@
       <file>$PROJ_DIR$\Debug\Obj\UART_PRINT.r51</file>
       <file>$PROJ_DIR$\..\Lib\CC2530_lib\mylib\UART_PRINT.c</file>
       <file>$PROJ_DIR$\..\Lib\CC2530_lib\moudle\dma_tgs2602.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdlib.h</file>
     </outputs>
     <file>
       <name>$PROJ_DIR$\..\Lib\CC2530_lib\moudle\dma_tgs.c</name>
@@ -536,7 +537,7 @@
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 100</file>
+          <file> 100 41 82 89 84 104 48 103 45 55 6 67 7 90 70 3 50 148 24 75 29 1 35</file>
         </tool>
         <tool>
           <name>ICC8051</name>
