@@ -2079,6 +2079,9 @@
   <group>
     <name>basicrf</name>
     <file>
+      <name>$PROJ_DIR$\..\Lib\CC2530_lib\basicrf\basic_rf.h</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\..\Lib\CC2530_lib\basicrf\basic_rf.r51</name>
     </file>
   </group>
