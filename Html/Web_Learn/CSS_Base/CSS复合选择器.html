@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>复合选择器</title>
+    <style>
+        /* 后代选择器 */
+        .parent ol li {
+            color: blue;
+        }
+
+        /* 子代选择器 */
+        .parent>ul {
+            color: red;
+        }
+
+        /* 并集选择器 所有选择器都可以是并集选择器的一部分*/
+        ul,
+        ol,
+        li {
+            color: pink;
+        }
+
+        .parent li,
+        ul,
+        ol,
+        li {
+            color: pink;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <ul>
+            <li>儿子</li>
+        </ul>
+        <ol>
+            <li>孙子</li>
+        </ol>
+    </div>
+    <ul>Test1</ul>
+    <ol>Test2</ol>
+    <li>Test3</li>
+</body>
+
+</html>

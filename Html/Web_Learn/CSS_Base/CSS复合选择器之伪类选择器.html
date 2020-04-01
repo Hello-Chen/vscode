@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪类选择器</title>
+    <style>
+        /* a:1ink 选择所有未被访问的链接
+        a:visited  选择所有己被访问的链接
+        a:hover 选择鼠标指针位于其上的链接
+        a：active 选择活动链接（鼠标按下未弹起的链接） */
+        a {
+            text-decoration: none;
+        }
+        a:link {
+            color: red;
+        }
+        a:visited {
+            color: rgba(71, 182, 27, 0.644);
+        }
+        a:hover {
+            color: #61235e;
+        }
+    </style>
+</head>
+
+<body>
+    <div> <a href="https://hello-chen.cn">这是一个链接</a></div>
+    <div> <a href="https://hello-chen.cn">这是二个链接</a></div>
+    <div> <a href="https://hello-chen.cn">这是三个链接</a></div>
+    <div> <a href="https://hello-chen.cn">这是四个链接</a></div>
+</body>
+
+</html>
