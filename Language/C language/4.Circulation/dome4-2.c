@@ -1,11 +1,11 @@
-/* 加法表 */
+/* ????? */
 #include <stdio.h>
 #include <stdlib.h>
 
 int main(void)
 {
     int i, j, val;
-    printf("请输入一个数：");
+    printf("?????????????");
     scanf("%d", &val);
     for (i = 0, j = val; i < val; i++, j--)
     {

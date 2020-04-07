@@ -5,14 +5,16 @@
 2.辗转相除：
 如果b不等于0，计算结束，a就是最大公约数
 否则，计算a除以b的余数，让a等于b，而b等于那个余数
-回到第一步*/
+回到第一步
+3.lcm=两个变量乘积/gcd
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
 int main(void)
 {
-    int a, b, min;
-    scanf("%d %d", &a, &b);
+    /*int a, b, min;
+    scanf("%d %d",&a,&b);
     if (a < b)
     {
         min = a;
@@ -32,7 +34,18 @@ int main(void)
             }
         }
     }
-    printf("%d和%d最大公约数是%d", a, b, x);
+    printf("%d和%d最大公约数是%d", a, b, x); */
 
+    int a, b, c,x;
+    scanf("%d %d", &a, &b);
+    x = a * b;
+    while (b!=0)
+    {
+        c=a % b;
+        a = b;
+        b = c;
+    printf("a=%4d  b=%4d  c=%4d\n", a, b, c);
+    }
+    printf("gcd=%d lcm=%d",a,x/a);
     system("pause");
 }

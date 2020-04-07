@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    int i;>=
+    int i;
     float count=0,sum=0;
     for ( i = 0; i < 5; i++)
     {
