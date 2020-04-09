@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "gcc.exe build active file",
+			"command": "D:\\D_Software\\IDE_Code\\vscode\\mingw64\\bin\\gcc.exe",
+			"args": [
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "D:\\D_Software\\IDE_Code\\vscode\\mingw64\\bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		}
+	]
+}
