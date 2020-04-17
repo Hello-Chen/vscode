@@ -1,0 +1,629 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1;-webkit-text-size-adjust:100%}body{margin:0;padding:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace, monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{-webkit-box-sizing:border-box;box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}#root-toast2 .toast2{top:385px !important}html,body{width:100%;height:100%;font-family:PingFangSC-Regular,Microsoft YaHei;position:relative}.app{width:100%;height:100%;display:none;position:relative}#mainButtons{margin-top:20px}.main-button{background:#fff;font-size:14px;height:40px;border-radius:3px;border:1px solid;outline:none;cursor:pointer}.main-button:active{background:#f1f1f1}.main-button.confirm{background:#3940ee;color:#fff}.clearfix{display:inline-block}.clearfix:after{display:block;content:".";height:0;line-height:0;clear:both;visibility:hidden}.content{width:100%;height:100%;-webkit-box-sizing:border-box;box-sizing:border-box;background:#fff}.content .header{position:relative;height:44px;padding:0 16px;background:#F8F9FB;border-radius:6px}.content .header .wemeet-logo{width:40px;height:40px;position:absolute;left:16px;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);background-image:url(../static/imgs/detail/logo.png);background-repeat:no-repeat;background-size:cover}@media (-webkit-min-device-pixel-ratio:2),(min-device-pixel-ratio:2){.content .header .wemeet-logo{background-image:url(../static/imgs/detail/logo_2x.png);background-repeat:no-repeat;background-size:cover}}.content .header .header-txt{position:absolute;right:16px;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);font-family:PingFangSC-Regular,Microsoft YaHei;font-size:12px;color:#939699;letter-spacing:0;text-align:right;line-height:20px;display:none}.content .header .header-txt.orange-color{color:#FF801A}.content .items .item{display:block;font-size:14px;font-weight:400;color:#000;line-height:28px;padding:9px 0px}.content .items .item .item-label{float:left;padding-left:16px;font-family:PingFangSC-Regular,Microsoft YaHei;font-size:16px;color:#2D3033;letter-spacing:0;text-align:left;line-height:26px}.content .items .item .item-txt{float:right;padding-right:16px;font-family:PingFangSC-Regular,Microsoft YaHei;font-size:16px;color:#939699;letter-spacing:0;text-align:right;line-height:26px;max-width:68%}.content .items .item .item-btn{width:48px;height:28px;display:inline-block;background:#FFFFFF;position:relative;font-family:PingFangSC-Regular,Microsoft YaHei;font-size:12px;color:#006FFF;letter-spacing:0;text-align:center;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;outline:none;cursor:pointer;margin-left:12px;line-height:29px}.content .items .item .item-btn:after{content:" ";position:absolute;z-index:0;top:0;left:0;border:1px solid #C8CACC;border-radius:2px;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%;height:100%}@media (-webkit-min-device-pixel-ratio:2),(min-device-pixel-ratio:2){.content .items .item .item-btn:after{content:" ";position:absolute;z-index:0;top:0;left:0;border:1px solid #C8CACC;border-radius:2px;-webkit-box-sizing:border-box;box-sizing:border-box;width:200%;height:200%;-webkit-transform:scale(.5);transform:scale(.5);-webkit-transform-origin:left top;transform-origin:left top}}.content .items .item .item-btn:after{z-index:0}.content .items .item .meeting-code-lock-icon{background-image:url(../static/imgs/detail/icon_lock_default_3x.png);width:10px;height:12px;background-repeat:no-repeat;background-size:cover;display:inline-block;margin-right:5px}.content .items .item-line{position:relative}.content .items .item-line:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #E0E2E5;color:#E0E2E5;-webkit-transform-origin:0 0;transform-origin:0 0}@media (-webkit-min-device-pixel-ratio:2),(min-device-pixel-ratio:2){.content .items .item-line:after{content:" ";position:absolute;left:0;bottom:-1px;right:0;height:1px;border-bottom:1px solid #E0E2E5;color:#E0E2E5;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(.5);transform:scaleY(.5)}}.content .we-btn{margin-top:20px;padding:0 27px;max-width:280px;margin:auto;text-align:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;-js-display:flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.content .we-btn .main-button{width:100%;height:44px}.content .we-btn .main-button.confirm{background:#006FFF;font-family:PingFangSC-Regular,Microsoft YaHei;font-size:16px;color:#FFFFFF;letter-spacing:0;line-height:26px;border:1px solid #006FFF;margin-top:40px}.content .we-btn .main-button.confirm:hover{background:#1A8CFF}.content .we-btn .main-button.confirm:active{background:#0054E6}.content .we-btn .main-button.confirm:disabled,.content .we-btn .main-button.confirm[disabled]{background:gray;border-color:gray}.content .we-btn .we-btn-2{border:1px solid #C8CACC;display:none;font-family:PingFangSC-Regular,Microsoft YaHei;font-size:16px;color:#006FFF;letter-spacing:0;text-align:center;line-height:26px}.content .we-btn .we-btn-2:active{background:#D4D6D9}.content .we-btn .we-btn-wechat{margin-top:20px;border:1px solid #C8CACC;font-family:PingFangSC-Regular,Microsoft YaHei;font-size:16px;color:#006FFF;letter-spacing:0;text-align:center;line-height:26px}.content .we-btn .we-btn-wechat:active{background:#D4D6D9}.content .we-btn .has-password-tip{font-family:PingFangSC-Regular,Microsoft YaHei;font-size:12px;color:#939699;line-height:20px;margin-top:12px}.content .msg-wrap{display:none;text-align:center;margin-top:60px}.content .msg-wrap .msg-wrap-img{width:50.4px;height:78.05px}.content .msg-wrap .msg-wrap-txt{font-family:PingFangSC-Regular,Microsoft YaHei;font-size:18px;color:#FF801A;letter-spacing:0;text-align:center;line-height:20px;margin-top:20px}.content .qrcode{margin-top:20px;text-align:center}.content .qrcode .qrcode-wrap{display:inline-block}.content .qrcode .qrcode-wrap img{display:inline-block;width:120px;height:120px}.content .qrcode .qrcode-wrap .qrcode-txt{font-family:PingFangSC-Regular,Microsoft YaHei;font-size:12px;color:#2D3033;letter-spacing:0;text-align:center;line-height:20px;margin-top:6px}.content .foot-wrap{margin-top:12px}.content .cards{background:#fff}.content .cards .card{width:100%;padding:0 16px;padding-top:15px;-webkit-box-sizing:border-box;box-sizing:border-box;min-height:51px}.content .cards .card .card-wrap{position:relative;width:100%}.content .cards .card .card-wrap .card-txt{float:left;max-width:65%;font-family:PingFangSC-Regular,Microsoft YaHei;font-size:12px;color:#939699;letter-spacing:0;text-align:left;line-height:20px}.content .cards .card .card-wrap .main-button{float:right;position:absolute;right:0px;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);border:1px solid #C8CACC;font-family:PingFangSC-Regular,Microsoft YaHei;font-size:12px;color:#006FFF;letter-spacing:0;text-align:center;line-height:24px;width:100px;height:28px}.content .cards .card .card-wrap.line-1{margin-bottom:16px}.content .cards .card-line{position:relative}.content .cards .card-line:after{content:" ";position:absolute;left:0;bottom:0;right:0;height:1px;border-bottom:1px solid #E0E2E5;color:#E0E2E5;-webkit-transform-origin:0 0;transform-origin:0 0}@media (-webkit-min-device-pixel-ratio:2),(min-device-pixel-ratio:2){.content .cards .card-line:after{content:" ";position:absolute;left:0;bottom:-1px;right:0;height:1px;border-bottom:1px solid #E0E2E5;color:#E0E2E5;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:scaleY(.5);transform:scaleY(.5)}}.content .foot-txt{font-family:PingFangSC-Regular,Microsoft YaHei;font-size:12px;color:#939699;letter-spacing:0;line-height:20px;text-align:center;padding-top:12px;padding-bottom:15px;-webkit-box-sizing:border-box;box-sizing:border-box;background:#fff}.content .foot-txt a{font-family:PingFangSC-Regular,Microsoft YaHei;font-size:12px;color:#939699;letter-spacing:0;line-height:20px;cursor:pointer;text-decoration:none}.content.foot-fixed .foot-wrap{width:100%;position:fixed;
+bottom:0px
+}
+
+.content.foot-fixed .foot-txt {
+    width: 100%
+}
+
+.android-download-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    color: #FFFFFF
+}
+
+.android-download-container .content-container {
+    text-align: right;
+    margin-right: 6%;
+    padding-top: 5%
+}
+
+.android-download-container .hint-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: baseline;
+    -webkit-align-items: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    width: 100%;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-bottom: 5%
+}
+
+.android-download-container .hint-container p {
+    font-size: 14px;
+    margin-right: 2%
+}
+
+.m-qrcode-dialog {
+    display: none
+}
+
+.m-qrcode-dialog .dialog-mask {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: .6;
+    background: #000000;
+    z-index: 1
+}
+
+.m-qrcode-dialog .dialog-wrap-content {
+    position: fixed;
+    bottom: 114px;
+    background: #fff;
+    z-index: 2;
+    margin: 0px 8px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    left: 0px;
+    right: 0px;
+    border-radius: 8px
+}
+
+.m-qrcode-dialog .dialog-wrap-content .dialog-wrap-title {
+    font-family: Helvetica, Microsoft YaHei;
+    font-size: 13px;
+    color: #8F8F8F;
+    letter-spacing: -0.08px;
+    text-align: center;
+    line-height: 18px;
+    padding: 14px 0px 13px
+}
+
+.m-qrcode-dialog .dialog-wrap-content .dialog-wrap-items .dialog-wrap-item {
+    font-family: PingFangSC-Regular, Microsoft YaHei;
+    font-size: 16px;
+    color: #007AFF;
+    letter-spacing: .3px;
+    text-align: center;
+    line-height: 24px;
+    padding: 17px 8px 16px 8px;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.m-qrcode-dialog .dialog-wrap-content .dialog-wrap-items .dialog-wrap-item:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 1px;
+    border-bottom: 1px solid #E5E5E5;
+    color: #E5E5E5;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0
+}
+
+@media (-webkit-min-device-pixel-ratio:2),
+(min-device-pixel-ratio:2) {
+    .m-qrcode-dialog .dialog-wrap-content .dialog-wrap-items .dialog-wrap-item:before {
+        content: " ";
+        position: absolute;
+        left: 0;
+        top: -1px;
+        right: 0;
+        height: 1px;
+        border-bottom: 1px solid #E5E5E5;
+        color: #E5E5E5;
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+        -webkit-transform: scaleY(.5);
+        transform: scaleY(.5)
+    }
+}
+
+.m-qrcode-dialog .dialog-wrap-content .dialog-wrap-items .dialog-wrap-item.hide-dialog-wrap-item {
+    display: none
+}
+
+.m-qrcode-dialog .dialog-wrap-content .dialog-wrap-items .dialog-wrap-item .item-phone-num {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.m-qrcode-dialog .dialog-wrap-content .dialog-wrap-items .dialog-wrap-item .item-phone-txt {
+    min-width: 80px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+.m-qrcode-dialog .dialog-wrap-btn {
+    position: fixed;
+    bottom: 50px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    background: #fff;
+    margin: 0px 8px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 56px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 8px
+}
+
+.m-qrcode-dialog .dialog-wrap-btn .cancel-btn {
+    font-family: Helvetica, Microsoft YaHei;
+    font-size: 20px;
+    color: #007AFF;
+    letter-spacing: .38px;
+    text-align: center;
+    line-height: 24px;
+    outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer
+}
+
+.qrcode-dialog-common .dialog-mask {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 1
+}
+
+.qrcode-dialog-common .dialog-wrap {
+    position: fixed;
+    z-index: 2;
+    width: 460px;
+    height: 460px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 2px
+}
+
+.qrcode-dialog-common .dialog-wrap .dialog-wrap-div {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative
+}
+
+.qrcode-dialog-common .dialog-wrap .dialog-wrap-close {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-image: url(../static/imgs/common/icon_close_normal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 11.5px;
+    top: 11.5px;
+    outline: none;
+    cursor: pointer
+}
+
+@media (-webkit-min-device-pixel-ratio:2),
+(min-device-pixel-ratio:2) {
+    .qrcode-dialog-common .dialog-wrap .dialog-wrap-close {
+        background-image: url(../static/imgs/common/icon_close_normal@2x.png);
+        background-repeat: no-repeat;
+        background-size: cover
+    }
+}
+
+.qrcode-dialog-common .dialog-wrap .dialog-wrap-close:hover {
+    background-image: url(../static/imgs/common/icon_close_hover.png);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+@media (-webkit-min-device-pixel-ratio:2),
+(min-device-pixel-ratio:2) {
+    .qrcode-dialog-common .dialog-wrap .dialog-wrap-close:hover {
+        background-image: url(../static/imgs/common/icon_close_hover@2x.png);
+        background-repeat: no-repeat;
+        background-size: cover
+    }
+}
+
+.qrcode-dialog-common .dialog-wrap .dialog-wrap-close:active {
+    background-image: url(../static/imgs/common/icon_close_press.png);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+@media (-webkit-min-device-pixel-ratio:2),
+(min-device-pixel-ratio:2) {
+    .qrcode-dialog-common .dialog-wrap .dialog-wrap-close:active {
+        background-image: url(../static/imgs/common/icon_close_press@2x.png);
+        background-repeat: no-repeat;
+        background-size: cover
+    }
+}
+
+.qrcode-dialog {
+    display: none
+}
+
+.qrcode-dialog .dialog-wrap .dialog-wrap-msg {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.qrcode-dialog .dialog-wrap .dialog-wrap-msg img {
+    width: 260px;
+    height: 260px
+}
+
+.qrcode-dialog .dialog-wrap .dialog-wrap-msg .dialog-wrap-txt {
+    font-family: MicrosoftYaHei, Microsoft YaHei;
+    font-size: 16px;
+    color: #000000;
+    line-height: 20px;
+    margin-top: 12px
+}
+
+.tel-entry-dialog {
+    display: none
+}
+
+.tel-entry-dialog .dialog-wrap {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    min-width: 389px;
+    width: auto;
+    height: auto
+}
+
+.tel-entry-dialog .dialog-wrap .dialog-wrap-msg .dialog-wrap-title {
+    font-family: PingFangSC-Regular, Microsoft YaHei;
+    font-size: 18px;
+    color: #2D3033;
+    letter-spacing: 0;
+    line-height: 28px;
+    text-align: left;
+    padding: 32px 24px 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.tel-entry-dialog .dialog-wrap .dialog-wrap-msg .dialog-wrap-content {
+    padding: 0px 24px 32px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.tel-entry-dialog .dialog-wrap .dialog-wrap-msg .dialog-wrap-content .dialog-wrap-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 12px
+}
+
+.tel-entry-dialog .dialog-wrap .dialog-wrap-msg .dialog-wrap-content .dialog-wrap-item.hide-dialog-wrap-item {
+    display: none
+}
+
+.tel-entry-dialog .dialog-wrap .dialog-wrap-msg .dialog-wrap-content .dialog-wrap-item .item-txt {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #2D3033;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 24px
+}
+
+.tel-entry-dialog .dialog-wrap .dialog-wrap-msg .dialog-wrap-content .dialog-wrap-item .item-btn {
+    min-width: 56px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #006FFF;
+    letter-spacing: 0;
+    text-align: right;
+    line-height: 24px;
+    outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer
+}
+
+.qrcode-dialog-2 {
+    display: none
+}
+
+.qrcode-dialog-2 .dialog-mask {
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+    opacity: .6;
+    background: #000000;
+    border-radius: 0px
+}
+
+.qrcode-dialog-2 .dialog-wrap-msg {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #FFFFFF;
+    border-radius: 0px;
+    width: 100%;
+    height: 375px;
+    z-index: 2;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.qrcode-dialog-2 .dialog-wrap-msg img {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 12px
+}
+
+.qrcode-dialog-2 .dialog-wrap-msg .dialog-wrap-txt {
+    font-family: PingFangSC-Regular, Microsoft YaHei;
+    font-size: 16px;
+    color: #2D3033;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 28px
+}
+
+.in-mobile {
+    width: 100%
+}
+
+.in-mobile .content {
+    height: 100%
+}
+
+@media screen and (max-width:320px) {
+    .in-mobile .content .cards .card .card-wrap .card-txt {
+        width: 62%
+    }
+}
+
+.in-pc .app {
+    min-height: 637px;
+    background: url(../static/imgs/detail/join_page_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.in-pc .app .content {
+    width: 375px;
+    height: 617px;
+    margin: auto;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0
+}
+
+.in-pc .app .content .qrcode .qrcode-wrap img {
+    outline: none;
+    cursor: pointer
+}
+
+.in-pc .app .content .foot-txt {
+    border-radius: 6px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px
+}
+
+.in-pc .content .we-btn#mainButtons {
+    margin-top: 32px
+}
+
+.in-pc .content .we-btn .main-button.confirm {
+    margin-top: 16px
+}
+
+.in-pc .content .we-btn .we-btn-wechat {
+    margin-top: 16px
+}
+
+.in-pc .content .foot-wrap {
+    margin-top: 70px
+}
+
+#launch-app-container.content {
+    margin: auto;
+    max-width: 375px;
+    text-align: center
+}
+
+#launch-app-container.content .main-wrap {
+    padding-top: 92px
+}
+
+#launch-app-container.content .main-wrap .logo img {
+    width: 116px;
+    height: 116px
+}
+
+#launch-app-container.content .main-wrap .logo .logo-txt {
+    font-family: PingFangSC-Regular, Microsoft YaHei;
+    font-size: 16px;
+    color: #2D3033;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 26px;
+    padding: 30px 0px
+}
+
+#launch-app-container.content .main-wrap .desc {
+    font-family: PingFangSC-Regular, Microsoft YaHei;
+    font-size: 14px;
+    color: #939699;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px
+}
+
+#launch-app-container.content .main-wrap .desc .link {
+    font-family: PingFangSC-Regular, Microsoft YaHei;
+    font-size: 14px;
+    color: #006FFF;
+    letter-spacing: 0;
+    text-align: center
+}
+
+#launch-app-container.content .we-btn {
+    margin-top: 40px;
+    padding: 0px 28px;
+    max-width: inherit
+}
+
+#launch-app-container.content .we-btn.show-tel {
+    padding: 0px
+}
+
+#launch-app-container.content .we-btn.show-tel .main-button {
+    width: 154px;
+    display: inline-block;
+    margin-top: 0px
+}
+
+#launch-app-container.content .we-btn.show-tel .main-button.we-btn-2 {
+    margin-left: 10px
+}
+
+#launch-app-container.content .we-btn .main-button.confirm {
+    margin-top: unset
+}
+
+#launch-app-container.content .we-btn .we-btn-2 {
+    letter-spacing: 1px;
+    border: 1px solid #C8CACC;
+    border-radius: 2px
+}
+
+#launch-app-container.content .qrcode {
+    margin-top: 37px;
+    text-align: center
+}
+
+#launch-app-container.content .qrcode .qrcode-wrap .qrcode-txt {
+    margin-top: 12px
+}
+
+.in-mobile {
+    width: 100%;
+    max-width: 100%
+}
+
+.in-pc .app #launch-app-container.content {
+    height: 520px;
+    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    max-width: 375px
+}
+
+.in-pc .app #launch-app-container.content .main-wrap {
+    padding-top: 92px
+}
+
+.in-pc .app #launch-app-container.content .main-wrap .desc .link {
+    outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer
+}
