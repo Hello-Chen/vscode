@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盒子模型边框</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            /* border-width: 5px;
+            border-style: double;
+            border-color: #f00; */
+            border: 20px double #f0f;
+        }
+        table {
+            width: 800px;
+            height: 500px;
+            text-align: center;
+        }
+        th {
+            width: 200px;
+            height: 100px;
+        }
+        table,th,td {
+            font-size: 18px;
+            border-collapse: collapse;
+            border-color: blue;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <table align="center" cellspacing="0" border="1">
+        <thead>
+            <tr>
+                <th>排名</th>
+                <th>关键词</th>
+                <th>趋势</th>
+                <th>进入搜索</th>
+                <th>最近七日</th>
+                <th>相关连接</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>test 01</td>
+                <td>test 02</td>
+                <td>test 03</td>
+                <td>test 04</td>
+                <td>test 05</td>
+                <td><a href="#">link</a></td>
+            </tr>
+            <tr>
+                <td>ceshi 01</td>
+                <td>ceshi 02</td>
+                <td>ceshi 03</td>
+                <td>ceshi 04</td>
+                <td>ceshi 05</td>
+                <td><a href="#">link</a></td>
+            </tr>
+            <tr>
+                <td>大家好</td>
+                <td>大家好</td>
+                <td>大家好</td>
+                <td>大家好</td>
+                <td>大家好</td>
+                <td><a href="#">link</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

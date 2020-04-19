@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS盒子模型居中</title>
+    <style>
+        /* 由于浏览器自带内外边距，可以先去除保持统一 */
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        /* 外边距可以使块级元素居中，必须设置宽度的前提下 */
+        .one {
+            width: 200px;
+            height: 200px;
+            background-color: #000000;
+            margin: 10px auto;
+        }
+
+        /* 注意：以上方法是让块级元素水平居中，
+        行内元素或者行内块元素水平居中给其父元素添加text-alignicenter即可。 */
+        div {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="one">第一个盒子</div>
+    <div><span>你好像</span></div>
+    <div><img src="http://area.sinaapp.com/bingImg/" alt="bing" width="200px" height="200px"></div>
+</body>
+
+</html>

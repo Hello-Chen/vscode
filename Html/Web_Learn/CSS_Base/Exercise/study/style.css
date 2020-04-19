@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 定义一个版心公共类 */
+.w {
+    width: 1200px;
+    margin: auto;
+}
+.header {
+    height: 42px;
+    margin: 10px auto;
+    background-color: skyblue;
+}
+.logo {
+    float: left;
+    width: 198px;
+    height: 42px;
+    background-color: aqua;
+}

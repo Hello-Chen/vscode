@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS盒子模型综合练习</title>
+    <!-- padding margin都会影响盒子大小
+    一般盒子内文字字数不一样就给padding撑开盒子，不是定义宽度 -->
+    <style>
+        .nav {
+            border-top: 3px solid #f0f;
+            border-bottom: 1px solid #edeef0;
+            height: 41px;
+            line-height: 41px;
+            background-color: #fcfcfc;
+        }
+        .nav a {
+            display: inline-block;
+            padding: 0 20px;
+            color: #4c4c4c;
+            font-size: 16px;
+            text-decoration: none;
+        }
+        .nav a:hover {
+            color: #f0f;
+            background-color: cornsilk;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="#">link1</a>
+        <a href="#">link12</a>
+        <a href="#">link123</a>
+        <a href="#">link1234</a>
+    </div>
+</body>
+</html>

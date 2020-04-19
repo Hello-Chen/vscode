@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浮动清除</title>
+    <style>
+        .box {
+
+            /* 2.给父元素添加overflow属性  */
+            /* overflow: hidden; */
+            width: 1200px;
+            margin: 0 auto;
+            background-color: #7a2f7a;
+        }
+
+        /* 3.给父元素添加伪元素 可定义公共类调用 */
+        /* .clearfloat:after {
+            display: block;
+            clear: both;
+            content: "";
+            visibility: hidden;
+            height: 0
+        } */
+        /* 4.给父元素添加双伪类元素 */
+        .clearfloat:after,
+        .clearfloat:before {
+            content: "";
+            display: table;
+        }
+        .clearfloat:after{
+            clear: both;
+        }
+        .clearfloat {
+            zoom: 1
+        }
+
+        .box div {
+            float: left;
+            width: 200px;
+            height: 200px;
+            margin: 10px auto;
+            background-color: #ff8899;
+        }
+
+        .footer {
+            width: 1200px;
+            height: 300px;
+            background-color: #83073b;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box clearfloat">
+        <div>1</div>
+        <div>2</div>
+        <div>2</div>
+        <div>2</div>
+    </div>
+    <!--  1.额外标签法（隔墙法）  -->
+    <!-- <div style="clear:both"></div> -->
+    <div class="footer"></div>
+</body>
+
+</html>

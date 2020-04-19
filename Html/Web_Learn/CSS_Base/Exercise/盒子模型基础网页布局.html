@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盒子模型基础网页布局</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .top {
+            height: 65px;
+            background-image: radial-gradient( circle farthest-corner at -0.6% 44.4%,  rgba(142,252,152,1) 0%, rgba(107,214,250,1) 90% );
+        }
+        .banner {
+            width: 1200px;
+            height: 180px;
+            margin: 10px auto;
+            background-image: linear-gradient( 93.1deg,  rgba(238,254,183,1) 19.1%, rgba(169,254,222,1) 53.9%, rgba(90,222,255,1) 92% );
+        }
+        .box1 {
+            width: 1200px;
+            height: 120px;
+            margin: 10px auto;
+        }
+        .box1 ul li.last1 {
+            margin-right: 0;
+        }
+        .box1 li{
+            float: left;
+            list-style: none;
+            width: 290px;
+            height: 120px;
+            margin-right: 13px;
+            background-image: radial-gradient( circle farthest-corner at 2.9% 7.7%,  rgba(164,14,176,1) 0%, rgba(254,101,101,1) 90% );
+        }
+        .box2 {
+            width: 1200px;
+            height: 180px;
+            margin: 10px auto;
+        }
+        .box2 ul li.last2 {
+            margin-right: 0;
+        }
+        .box2 li{
+            float: left;
+            list-style: none;
+            width: 290px;
+            height: 180px;
+            margin-right: 13px;
+            background-image: radial-gradient( circle farthest-corner at 2.9% 7.7%,  rgba(164,14,176,1) 0%, rgba(254,101,101,1) 90% );
+        }
+        .footer {
+            height: 150px;
+            background-image: radial-gradient( circle 753.6px at 10% 20%,  rgba(248,167,221,1) 0%, rgba(230,192,254,1) 41%, rgba(169,217,243,1) 90% );
+        }
+    </style>
+</head>
+<body>
+    <div class="top">top</div>
+    <div class="banner">banner</div>
+    <div class="box1">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li class="last1">4</li>
+        </ul>
+    </div>
+    <div class="box2">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li class="last2">4</li>
+        </ul>
+    </div>
+    <div class="footer">footer</div>
+</body>
+</html>
