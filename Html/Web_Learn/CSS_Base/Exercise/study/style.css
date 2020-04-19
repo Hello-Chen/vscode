@@ -2,19 +2,96 @@
     margin: 0;
     padding: 0;
 }
+
 /* 定义一个版心公共类 */
 .w {
     width: 1200px;
     margin: auto;
 }
+body {
+    background-color: #e1e6d7;
+}
+/* 清除li标签小点 */
+li {
+    float: left;
+    list-style: none;
+}
+/* 清除a标签链接样式 */
+a {
+    text-decoration: none;
+}
 .header {
     height: 42px;
     margin: 10px auto;
-    background-color: skyblue;
+    background-color: rgba(255,255,255,.3);
 }
+/* logo */
 .logo {
     float: left;
     width: 198px;
     height: 42px;
-    background-color: aqua;
+}
+/* nav */
+.nav {
+    float: left;
+    margin-left: 60px;
+}
+
+.nav ul li{
+    float: left;
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    display: block;
+    height: 42px;
+    padding: 0 10px;
+    line-height: 42px;
+    color: #050505;
+    font-size: 18px;
+}
+.nav ul li a:hover {
+    border-bottom: 2px solid skyblue;
+    color: skyblue;
+}
+/* search */
+.search {
+    float: left;
+    width: 412px;
+    height: 42px;
+    margin-left: 50px;
+}
+.search input {
+    float: left;
+    width: 345px;
+    height: 40px;
+    padding-left: 15px;
+    border: 1px solid skyblue;
+    border-right: 0;
+    color: #bfbfbf;
+    font-size: 14px;
+}
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    /* button默认带边框 */
+    border: 0;
+    background: url(/Html/Web_Learn/CSS_Base/Exercise/study/images/search.png);
+    background-size: 45px 45px;
+}
+/* user */
+.user {
+    float: right;
+    vertical-align:middle; /* 图片文字居中对齐， */
+    line-height: 42px;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #666;
+}
+.user img {
+    transition: 1s;
+}
+.user img:hover {
+    transform: rotate(360deg);
 }
