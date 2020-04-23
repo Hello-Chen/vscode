@@ -10,9 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6fc8b72-3489-46ec-94c7-88ca43a5ebea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Html/Base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Html/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Html/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../图层 0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Html/Web_Learn/CSS_Base/Exercise/study/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Html/Web_Learn/CSS_Base/Exercise/study/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,11 @@
       <workItem from="1586958154449" duration="16000" />
       <workItem from="1586958212461" duration="30000" />
       <workItem from="1586959355563" duration="13000" />
+      <workItem from="1587635063753" duration="25000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
 </project>
