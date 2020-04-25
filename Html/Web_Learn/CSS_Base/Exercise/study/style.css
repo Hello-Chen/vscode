@@ -3,6 +3,19 @@
     padding: 0;
 }
 
+/*清除浮动代码*/
+.clearfloat:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0
+}
+
+.clearfloat {
+    zoom: 1
+}
+
 /* 定义一个版心公共类 */
 .w {
     width: 1200px;
@@ -79,6 +92,7 @@ a {
     border-right: 0;
     color: #bfbfbf;
     font-size: 14px;
+    border-radius: 20px;
 }
 
 .search button {
@@ -118,7 +132,7 @@ a {
 
 .banner .w {
     height: 420px;
-    background: url(/Html/Web_Learn/CSS_Base/Exercise/study/images/banner.jpg) no-repeat top center;
+    background: url(http://area.sinaapp.com/bingImg/) no-repeat 50% center;
 }
 
 .subnav {
@@ -149,12 +163,13 @@ a {
 
 /* 课程表 */
 .course {
+    float: right;
     width: 230px;
     height: 300px;
-    float: right;
     background-color: rgba(255, 255, 255, 0.5);
     /* 标准流子盒子有外边距会塌陷，浮动的盒子不会 */
     margin-top: 60px;
+    border-radius: 5px;
 }
 
 .course h2 {
@@ -164,6 +179,7 @@ a {
     line-height: 48px;
     font-size: 18px;
     color: #fff;
+    border-radius: 5px 5px 0 0;
 }
 
 .bd {
@@ -197,10 +213,12 @@ a {
     letter-spacing: 5px;
     color: #00aaff;
     background-image: radial-gradient(circle farthest-corner at 7.5% 24%, rgba(237, 161, 193, 1) 0%, rgba(250, 178, 172, 1) 25.5%, rgba(190, 228, 210, 1) 62.3%, rgba(215, 248, 247, 1) 93.8%);
+    border-radius: 5px;
 }
 
 /* 精品推荐模块 */
 .goods {
+    border-radius: 10px;
     height: 60px;
     line-height: 60px;
     background-color: #fff;
@@ -215,13 +233,15 @@ a {
     color: #0044ff;
 }
 
-.goods ul{
+.goods ul {
     float: left;
     margin-left: 30px;
 }
+
 .goods ul li {
     float: left;
 }
+
 .goods ul li a {
     padding: 0 30px;
     border-left: 1px solid #ccc;
@@ -234,4 +254,112 @@ a {
     margin-right: 30px;
     font-size: 14px;
     color: #0044ff;
+}
+
+/* box内容 */
+.box {
+    margin-top: 30px;
+}
+
+.box-hd {
+    height: 45px;
+}
+
+.box-hd h3 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+
+.box-hd ul.hdzj {
+    float: left;
+    margin: 0 420px;
+}
+
+.box-hd ul.hdzj li {
+    float: left;
+    padding: 5px 10px;
+}
+
+.box-hd ul.hdzj li a:hover {
+    color: #000;
+}
+
+.box-hd a {
+    float: right;
+    font-size: 15px;
+    color: #a5a5a5;
+    margin: 5px 28 px 0 0;
+}
+
+/* 修改ul使他能装下5个盒子 */
+.box-bd ul {
+    width: 1225px;
+}
+
+.box-bd ul li {
+    float: left;
+    width: 230px;
+    height: 270px;
+    background-color: #fff;
+    margin: 0 10px 10px 0;
+    border-radius: 5px;
+
+}
+
+.box-bd ul li img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.box-bd ul li h4 {
+    margin: 20px 25px;
+    color: #050505;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.box-bd ul li .info {
+    margin: 20px 25px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.box-bd ul li .info span {
+    font-size: 14px;
+    color: #ffa743;
+}
+/* footer */
+.footer {
+    height: 415px;
+    background-color: pink;
+}
+.copyright {
+    float: left;
+    padding-top: 25px;
+}
+.links {
+    float: right;
+}
+.copyright p {
+    width: 590px;
+    margin: 20px 0;
+    font-size: 12px;
+}
+.copyright .app {
+    display: block;
+    width: 115px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background-image: linear-gradient( 112.9deg,  rgba(112,255,151,1) 6.2%, rgba(70,195,255,1) 99.7% );
+}
+.links dl {
+    float: right;
+    padding: 35px 35px 0 0;
+}
+.links dl dd {
+    margin-top: 5px;
 }
