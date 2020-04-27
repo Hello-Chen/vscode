@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS定位</title>
+    <style>
+        /* 固定定位fixed */
+        /* .box1 {
+            width: 400px;
+            height: 400px;
+            background-color: aqua;
+        }
+        .box2 {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            position: fixed;
+            left: 20px;
+            top: 50px;
+        } */
+
+        /* 相对定位 */
+        /* .box1 {
+            width: 400px;
+            height: 400px;
+            background-color: brown;
+        }
+        .box2 {
+            /* 参考原状态位置定位
+            position: relative;
+            left: 50px;
+            top: 60px;
+            width: 200px;
+            height: 200px;
+            background-color: burlywood;
+        } */
+
+        /* 绝对定位 */
+        .box1 {
+            position: fixed;
+            width: 400px;
+            height: 400px;
+            margin: 0 auto;
+            background-color: brown;
+        }
+
+        .box2 {
+            /* 相对于最近一级的已定位父元素*/
+            position: absolute;
+            left: 50px;
+            top: 60px;
+            width: 200px;
+            height: 200px;
+            z-index: 5;
+            background-color: burlywood;
+        }
+
+        .box3 {
+            position: absolute;
+            left: 50px;
+            top: 60px;
+            width: 200px;
+            height: 200px;
+            z-index: 2;
+            background-color: rgb(55, 123, 187);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">
+        <div class="box2"><div class="box3"></div></div>
+
+    </div>
+</body>
+
+</html>
