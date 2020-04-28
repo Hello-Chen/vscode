@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS三角形</title>
+    <style>
+        .box {
+            position: relative;
+            width: 150px;
+            height: 200px;
+            background-color: skyblue;
+            margin: 50px;
+        }
+        .box span {
+            position: absolute;
+            right: 15px;
+            top: -19px;
+            width: 0;
+            height: 0;
+            line-height: 0;
+            font-size: 0;
+            border: 10px solid transparent;
+            border-bottom-color: skyblue;
+        }
+        .box .box1 {
+            position: absolute;
+            right: 15px;
+            
+            width: 0;
+            height: 0;
+            line-height: 0;
+            font-size: 0;
+            border: 10px solid #555555;
+            border-top-right-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box1"></div>
+        <span></span>
+    </div>
+</body>
+</html>

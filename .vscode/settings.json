@@ -8,5 +8,10 @@
         "limits": "c",
         "cstdio": "c"
     },
-    "liveServer.settings.multiRootWorkspaceName": "vscode"
+    "liveServer.settings.multiRootWorkspaceName": "vscode",
+    "cSpell.words": [
+        "",
+        "background",
+        "color"
+    ]
 }
